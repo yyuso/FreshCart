@@ -722,8 +722,7 @@
 }
 body{
     margin: 0;
-
-
+    overflow-x: hidden
 }
 body::-webkit-scrollbar {
     width: 10px;
