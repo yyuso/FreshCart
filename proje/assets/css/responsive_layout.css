@@ -175,4 +175,14 @@
   .slider-cart{
     width: 1100px;
   }
+  .dropdown-content a{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .dropdown-contenta a{
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
 }
