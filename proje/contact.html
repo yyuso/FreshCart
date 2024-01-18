@@ -1,178 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Freshcart</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/49b40112f4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
-    <script src="javascript.js"></script>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshcart</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/49b40112f4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="assets/js/javascript.js"></script>
 </head>
 <body>
 <div class="main_container">
-    <header class="header">
-        <div class="header_up">
-             <p>Super Value Deals - Save more with coupons</p>
-             <div class="header_tongue">      
-            <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">
-                    <img src="img/ingilizb.png" style="width: 30px; margin-right: 5px;">English
-                    <i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i>
-                </button>
-                
-                <div id="myDropdown" class="dropdown-content">
-                  <a href="#"><img src="img/fransab.png" style="width: 30px; margin-right: 5px;">French</a>
-                  <a href="#"><img src="img/almanyab.png" style="width: 30px; margin-right: 5px;">Germany</a>
-                </div>
-              </div>
-            </div>
-        </div>
-        <div class="header_logo ">
-             <a href="index.html"><img src="img/download.svg" class="logo"></a>
-             <div class="header_search_engine">
-                <input type="text" placeholder="Search for products "class="search_engine ">
-                <i class="fa-solid fa-magnifying-glass fa-lg search_img"></i>
-                <div class="location">
-                    <i class="fa-solid fa-location-dot fa-lg"></i><p style="margin-left: 5px;">Location</p>
-                </div> 
-             </div>
-             <div class="header_user">
-              <div style="position: relative; width: 32px; height: 25px;">
-                <p><i class="fa-regular fa-heart fa-xl"></i></p>
-                  <div class="notification">5</div>
-              </div>
-              <p id="myBtn"><i class="fa-regular fa-user fa-xl"></i></p>
-              <!-- The Modal -->
-              <div id="myModal" class="modal">
-                <!-- Modal content -->
-                <div class="modal-content">
-                  <span class="close">&times;</span>
-                  <div class="modal-content-form">
-                    <h4>Hello</h4>
-                    <h6>Special coupons and deals for members are waiting for you</h6>
-                    <hr style="margin-bottom: 30px;">
-                    <input type="text" placeholder="User name"><br>
-                    <input type="text" placeholder="Password"><br>
-                    <button>Login</button><br>
-                    <button>Sign Up</button>
-                    <hr style="margin-top: 30px;">
-                    <h6>Need help?</h6>
-                    <h6>You can call Customer Services at 0850 333 0011.</h6></div>
-                </div>
-              </div>
-                
-                <div style="position: relative; width: 32px; height: 25px;">
-                  <a href="shopcart.html" style="color: grey;"><p><i class="fa-solid fa-basket-shopping fa-xl"></i></p></a>
-                    <div class="notification">1</div>
-                </div>
-             </div>
-        </div>
-        <div class="navbar">
+  <header class="header">
+    <div class="header_up">
+         <p>Super Value Deals - Save more with coupons</p>
+         <div class="header_tongue">      
         <div class="dropdown">
-            <button class="dropbtn"><i class="fa-brands fa-windows" style="margin-right: 5px;"></i>All Departments</button>
-            <div class="dropdown-content">
-              <a href="#">Dairy, Bread & Eggs</a>
-              <a href="#">Snacks & Munchies</a>
-              <a href="#">Fruits & Vegetables</a>
-              <a href="#">Cold Drinks & Juices</a>
-              <a href="#">Breakfast & Instant Food</a>
-              <a href="#">Bakery & Biscuits</a>
-              <a href="#">Chicken, Meat & Fish</a>
-            </div>
-        </div>
-        <div class="dropdowna">
-            <button class="dropbtna">Home<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
-            <div class="dropdown-contenta">
-              <a href="#">Home 1</a>
-              <a href="#">Home 2</a>
-              <a href="#">Home 3</a>
-              <a href="#">Home 4</a>
-            </div>
-        </div>
-        <div class="dropdowna">
-          <button class="dropbtna">Shop<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
-          <div class="dropdown-contenta">
-            <a href="products.html">Shop Grid - Filter</a>
-            <a href="#">Shop Grid - 3column</a>
-            <a href="#">Shop List - Filter</a>
-            <a href="#">Shop - Filter</a>
-          </div>
-        </div>
-        <div class="dropdowna">
-          <button class="dropbtna">Stores<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
-          <div class="dropdown-contenta">
-            <a href="#">Store List</a>
-            <a href="#">Stores Grid</a>
-            <a href="#">Stores Singe</a>
-          </div>
-        </div>
-        <div class="dropdowna">
-          <button class="dropbtna">Mega Menu<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
-          <div class="dropdown-mega-content">
-            <div class="megamenu_title">
-              <div class="megamenu_word">
-              <h4>Dairy, Bread & Eggs</h4>
-              <a href="#">Butter </a>
-              <a href="#">Milk Drinks </a>
-              <a href="#">Store Curd & Yogurt </a>
-              <a href="#">Eggs </a>
-              <a href="#">Buns & Bakery </a>
-              <a href="#">Cheese </a>
-              <a href="#">Condensed Milk </a>
-              <a href="#">Dairy Products </a>
-              </div>
-              <div class="megamenu_word">
-              <h4>Breakfast & Instant Food</h4>
-              <a href="#">Breakfast Cereal</a>
-              <a href="#">Noodles, Pasta & Soup</a>
-              <a href="#">Frozen Veg Sn</a>
-              <a href="#">Frozen Non-Veg Snacks</a>
-              <a href="#">Vermicelli</a>
-              <a href="#">Instant Mixes</a>
-              <a href="#">Batter</a>
-              <a href="#">Fruit and Juices</a>
-              </div>
-              <div class="megamenu_word">
-              <h4>Cold Drinks & Juices</h4>
-              <a href="#">Soft Drinks </a>
-              <a href="#">Fruit Juices </a>
-              <a href="#">Coldpress </a>
-              <a href="#">Water & Ice Cubes </a>
-              <a href="#">Soda & Mixers </a>
-              <a href="#">Health Drinks </a>
-              <a href="#">Herbal Drinks </a>
-              <a href="#">Milk Drinks </a>
-              </div>
-              <img src="img/menu-banner.jpg" alt="">
+            <button onclick="myFunction()" class="dropbtn">
+                <img src="assets/img//header_up_img/ingilizb.png" style="width: 30px; margin-right: 5px;">English
+                <i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i>
+            </button>
+            
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#"><img src="assets/img/header_up_img/fransab.png" style="width: 30px; margin-right: 5px;">French</a>
+              <a href="#"><img src="assets/img/header_up_img/almanyab.png" style="width: 30px; margin-right: 5px;">Germany</a>
             </div>
           </div>
         </div>
-        <div class="dropdowna">
-          <button class="dropbtna">Pages<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
-          <div class="dropdown-contenta">
-            <a href="#">Blog</a>
-            <a href="#">Blog Single</a>
-            <a href="#">Blog Category</a>
-            <a href="about.html">About Us</a>
-            <a href="contact.html">Contact</a>
+    </div>
+    <div class="header_logo ">
+         <a href="index.html"><img src="assets/img/download.svg" class="logo"></a>
+         <div class="header_search_engine">
+            <input type="text" placeholder="Search for products "class="search_engine ">
+            <div class="search_img-div"><i class="fa-solid fa-magnifying-glass fa-lg search_img"></i></div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot fa-lg"></i><p style="margin-left: 5px;">Location</p>
+                
+            </div>            
+         </div>
+         <div class="header_user">
+          <div style="position: relative; width: 32px; height: 25px;">
+            <p><a href="favorites.html" style="color: grey;"><i class="fa-regular fa-heart fa-xl"></i></a></p>
+              <div class="notification">5</div>
           </div>
-        </div>
-        <div class="dropdowna">
-          <button class="dropbtna">Account<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
-          <div class="dropdown-contenta">
-            <a href="signin.html">Sing In</a>
-            <a href="signup.html">Sing Up</a>
-            <a href="#">Forgot Password</a>
-            <a href="#">My Account</a>
+          <p id="myBtn"><i class="fa-regular fa-user fa-xl"></i></p>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="modal-content-form">
+                <h4>Hello</h4>
+                <h6>Special coupons and deals for members are waiting for you</h6>
+                <hr style="margin-bottom: 30px;">
+                <input type="text" placeholder="User name"><br>
+                <input type="text" placeholder="Password"><br>
+                <button>Login</button><br>
+                <a href="register.html"><button>Sign Up</button></a>
+                <hr style="margin-top: 30px;">
+                <h6>Need help?</h6>
+                <h6>You can call Customer Services at 0850 333 0011.</h6></div>
+            </div>
           </div>
+            <div style="position: relative; width: 32px; height: 25px;">
+              <a href="shopcart.html" style="color: grey;"><p><i class="fa-solid fa-basket-shopping fa-xl"></i></p></a>
+                <div class="notification">1</div>
+            </div>
+            <div class="bars"><i class="fa-solid fa-bars fa-xl"></i> </div>
+         </div>
+    </div>
+    <div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa-brands fa-windows" style="margin-right: 5px;"></i>All Departments</button>
+        <div class="dropdown-content">
+          <a href="#">Dairy, Bread & Eggs</a>
+          <a href="#">Snacks & Munchies</a>
+          <a href="#">Fruits & Vegetables</a>
+          <a href="#">Cold Drinks & Juices</a>
+          <a href="#">Breakfast & Instant Food</a>
+          <a href="#">Bakery & Biscuits</a>
+          <a href="#">Chicken, Meat & Fish</a>
         </div>
-        <span>Dashboard</span>
-        <span>Docs</span>
+    </div>
+    <div class="dropdowna">
+        <button class="dropbtna">Home<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+        <div class="dropdown-contenta">
+          <a href="#">Home 1</a>
+          <a href="#">Home 2</a>
+          <a href="#">Home 3</a>
+          <a href="#">Home 4</a>
         </div>
-    </header>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Shop<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="products.html">Shop Grid - Filter</a>
+        <a href="#">Shop Grid - 3column</a>
+        <a href="#">Shop List - Filter</a>
+        <a href="checkout.html">Shop - Checkout</a>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Stores<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="#">Store List</a>
+        <a href="#">Stores Grid</a>
+        <a href="#">Stores Singe</a>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Mega Menu<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-mega-content">
+        <div class="megamenu_title">
+          <div class="megamenu_word">
+          <h4>Dairy, Bread & Eggs</h4>
+          <a href="#">Butter </a>
+          <a href="#">Milk Drinks </a>
+          <a href="#">Store Curd & Yogurt </a>
+          <a href="#">Eggs </a>
+          <a href="#">Buns & Bakery </a>
+          <a href="#">Cheese </a>
+          <a href="#">Condensed Milk </a>
+          <a href="#">Dairy Products </a>
+          </div>
+          <div class="megamenu_word">
+          <h4>Breakfast & Instant Food</h4>
+          <a href="#">Breakfast Cereal</a>
+          <a href="#">Noodles, Pasta & Soup</a>
+          <a href="#">Frozen Veg Sn</a>
+          <a href="#">Frozen Non-Veg Snacks</a>
+          <a href="#">Vermicelli</a>
+          <a href="#">Instant Mixes</a>
+          <a href="#">Batter</a>
+          <a href="#">Fruit and Juices</a>
+          </div>
+          <div class="megamenu_word">
+          <h4>Cold Drinks & Juices</h4>
+          <a href="#">Soft Drinks </a>
+          <a href="#">Fruit Juices </a>
+          <a href="#">Coldpress </a>
+          <a href="#">Water & Ice Cubes </a>
+          <a href="#">Soda & Mixers </a>
+          <a href="#">Health Drinks </a>
+          <a href="#">Herbal Drinks </a>
+          <a href="#">Milk Drinks </a>
+          </div>
+          <img src="img/menu-banner.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Pages<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="#">Blog</a>
+        <a href="#">Blog Single</a>
+        <a href="#">Blog Category</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Account<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="signin.html">Sing In</a>
+        <a href="signup.html">Sing Up</a>
+        <a href="products_detail.html">Forgot Password</a>
+        <a href="#">My Account</a>
+      </div>
+    </div>
+    <span>Dashboard</span>
+    <span>Docs</span>
+    </div>
+  </header>
     <main class="main">
       <div class="contanct-main">
         <div class="account">
@@ -216,78 +216,78 @@
     <hr>
 <!--footer-->
 <footer class="footer">
-    <div class="container">
-      <div class="footer_div">
-        <div class="footer_card">
-          <a style="font-size: 25px;">Categories</a>
-          <div class="footer_Text">
-            <h5>Vegetables & Fruits</h5>
-            <h5>Breakfast & instant food</h5>
-            <h5>Bakery & Biscuits</h5>
-            <h5>Atta, rice & dal</h5>
-            <h5>Sauces & spreads</h5>
-            <h5>Organic & gourmet</h5>
-            <h5>Baby care</h5>
-            <h5>Cleaning essentials</h5>
-            <h5>Personal care</h5>
-          </div>
+  <div class="footer-container">
+    <div class="footer_div">
+      <div class="footer_card">
+        <a style="font-size: 25px;">Categories</a>
+        <div class="footer_Text">
+          <h5>Vegetables & Fruits</h5>
+          <h5>Breakfast & instant food</h5>
+          <h5>Bakery & Biscuits</h5>
+          <h5>Atta, rice & dal</h5>
+          <h5>Sauces & spreads</h5>
+          <h5>Organic & gourmet</h5>
+          <h5>Baby care</h5>
+          <h5>Cleaning essentials</h5>
+          <h5>Personal care</h5>
         </div>
-        <div class="footer_card">
-          <a style="font-size: 25px;">Get to know us</a>
-          <div class="footer_Text">
-            <h5>Company</h5>
-            <h5>About</h5>
-            <h5>Blog</h5>
-            <h5>Help Center</h5>
-            <h5>Our Value</h5>
-          </div>
+      </div>
+      <div class="footer_card">
+        <a style="font-size: 25px;">Get to know us</a>
+        <div class="footer_Text">
+          <h5>Company</h5>
+          <h5>About</h5>
+          <h5>Blog</h5>
+          <h5>Help Center</h5>
+          <h5>Our Value</h5>
         </div>
-        <div class="footer_card">
-          <a style="font-size: 25px;">For Consumers</a>
-          <div class="footer_Text">
-            <h5>Payments</h5>
-            <h5>Shipping</h5>
-            <h5>Product Returns</h5>
-            <h5>FAQ</h5>
-            <h5>Shop Checkout</h5>
-          </div>
+      </div>
+      <div class="footer_card">
+        <a style="font-size: 25px;">For Consumers</a>
+        <div class="footer_Text">
+          <h5>Payments</h5>
+          <h5>Shipping</h5>
+          <h5>Product Returns</h5>
+          <h5>FAQ</h5>
+          <h5>Shop Checkout</h5>
         </div>
-        <div class="footer_card">
-          <a style="font-size: 25px;">Become a Shopper</a>
-          <div class="footer_Text">
-            <h5>Shopper Opportunities</h5>
-            <h5>Become a Shopper</h5>
-            <h5>Earnings</h5>
-            <h5>Ideas & Guides</h5>
-            <h5>New Retailers</h5>
-          </div>
+      </div>
+      <div class="footer_card">
+        <a style="font-size: 25px;">Become a Shopper</a>
+        <div class="footer_Text">
+          <h5>Shopper Opportunities</h5>
+          <h5>Become a Shopper</h5>
+          <h5>Earnings</h5>
+          <h5>Ideas & Guides</h5>
+          <h5>New Retailers</h5>
+        </div>
+      </div> 
+    </div>
+    <hr>
+    <div class="footer_Payment">
+      <div class="Payment_Partners">
+      <div class="social_media">
+        <img src="assets/img/payment_img/amazonpay.svg" alt="">
+        <img src="assets/img/payment_img/american-express.svg" alt="">
+        <img src="assets/img/payment_img/mastercard.svg" alt="">
+        <img src="assets/img/payment_img/paypal.svg" alt="">
+        <img src="assets/img/payment_img/visa.svg" alt="">
+      </div>
+      </div>
+      <div class="Payment_Partners">
+        <div class="social_media">
+          <i class="fa-brands fa-instagram fa-2xl" style="color: #D70059;"></i>
+          <i class="fa-brands fa-facebook fa-2xl" style="color: #1777F2;"></i>
+          <i class="fa-brands fa-twitter fa-2xl" style="color: #1DA1F2;"></i>
+          <i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;"></i>
         </div> 
       </div>
-      <hr>
-      <div class="footer_Payment">
-        <div class="Payment_Partners">
-        <div class="social_media">
-          <img src="img/amazonpay.svg" alt="">
-          <img src="img/american-express.svg" alt="">
-          <img src="img/mastercard.svg" alt="">
-          <img src="img/paypal.svg" alt="">
-          <img src="img/visa.svg" alt="">
-        </div>
-        </div>
-        <div class="Payment_Partners">
-          <div class="social_media">
-            <i class="fa-brands fa-instagram fa-2xl" style="color: #D70059;"></i>
-            <i class="fa-brands fa-facebook fa-2xl" style="color: #1777F2;"></i>
-            <i class="fa-brands fa-twitter fa-2xl" style="color: #1DA1F2;"></i>
-            <i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;"></i>
-          </div> 
-        </div>
-      </div>
     </div>
-  </footer>
+  </div>
+</footer> 
+</div>
 <!--last footer-->
 <div class="last_footer"><h5>Product prices include VAT. ©Freshcart 2023</h5></div>
-</div>
 </body>
 </html>
-<script src="javascript.js"></script>
+<script src="assets/js/javascript.js"></script>

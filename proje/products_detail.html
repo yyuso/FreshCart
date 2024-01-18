@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freshcart</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://kit.fontawesome.com/49b40112f4.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+  <script src="assets/js/javascript.js"></script>
+</head>
+<body>
+<div class="main_container">
+  <header class="header">
+    <div class="header_up">
+         <p>Super Value Deals - Save more with coupons</p>
+         <div class="header_tongue">      
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+                <img src="assets/img//header_up_img/ingilizb.png" style="width: 30px; margin-right: 5px;">English
+                <i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i>
+            </button>
+            
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#"><img src="assets/img/header_up_img/fransab.png" style="width: 30px; margin-right: 5px;">French</a>
+              <a href="#"><img src="assets/img/header_up_img/almanyab.png" style="width: 30px; margin-right: 5px;">Germany</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    <div class="header_logo ">
+         <a href="index.html"><img src="assets/img/download.svg" class="logo"></a>
+         <div class="header_search_engine">
+            <input type="text" placeholder="Search for products "class="search_engine ">
+            <div class="search_img-div"><i class="fa-solid fa-magnifying-glass fa-lg search_img"></i></div>
+            <div class="location">
+                <i class="fa-solid fa-location-dot fa-lg"></i><p style="margin-left: 5px;">Location</p>
+                
+            </div>            
+         </div>
+         <div class="header_user">
+          <div style="position: relative; width: 32px; height: 25px;">
+            <p><a href="favorites.html" style="color: grey;"><i class="fa-regular fa-heart fa-xl"></i></a></p>
+              <div class="notification">5</div>
+          </div>
+          <p id="myBtn"><i class="fa-regular fa-user fa-xl"></i></p>
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <div class="modal-content-form">
+                <h4>Hello</h4>
+                <h6>Special coupons and deals for members are waiting for you</h6>
+                <hr style="margin-bottom: 30px;">
+                <input type="text" placeholder="User name"><br>
+                <input type="text" placeholder="Password"><br>
+                <button>Login</button><br>
+                <a href="register.html"><button>Sign Up</button></a>
+                <hr style="margin-top: 30px;">
+                <h6>Need help?</h6>
+                <h6>You can call Customer Services at 0850 333 0011.</h6></div>
+            </div>
+          </div>
+            <div style="position: relative; width: 32px; height: 25px;">
+              <a href="shopcart.html" style="color: grey;"><p><i class="fa-solid fa-basket-shopping fa-xl"></i></p></a>
+                <div class="notification">1</div>
+            </div>
+            <div class="bars"><i class="fa-solid fa-bars fa-xl"></i> </div>
+         </div>
+    </div>
+    <div class="navbar">
+    <div class="dropdown">
+        <button class="dropbtn"><i class="fa-brands fa-windows" style="margin-right: 5px;"></i>All Departments</button>
+        <div class="dropdown-content">
+          <a href="#">Dairy, Bread & Eggs</a>
+          <a href="#">Snacks & Munchies</a>
+          <a href="#">Fruits & Vegetables</a>
+          <a href="#">Cold Drinks & Juices</a>
+          <a href="#">Breakfast & Instant Food</a>
+          <a href="#">Bakery & Biscuits</a>
+          <a href="#">Chicken, Meat & Fish</a>
+        </div>
+    </div>
+    <div class="dropdowna">
+        <button class="dropbtna">Home<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+        <div class="dropdown-contenta">
+          <a href="#">Home 1</a>
+          <a href="#">Home 2</a>
+          <a href="#">Home 3</a>
+          <a href="#">Home 4</a>
+        </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Shop<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="products.html">Shop Grid - Filter</a>
+        <a href="#">Shop Grid - 3column</a>
+        <a href="#">Shop List - Filter</a>
+        <a href="checkout.html">Shop - Checkout</a>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Stores<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="#">Store List</a>
+        <a href="#">Stores Grid</a>
+        <a href="#">Stores Singe</a>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Mega Menu<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-mega-content">
+        <div class="megamenu_title">
+          <div class="megamenu_word">
+          <h4>Dairy, Bread & Eggs</h4>
+          <a href="#">Butter </a>
+          <a href="#">Milk Drinks </a>
+          <a href="#">Store Curd & Yogurt </a>
+          <a href="#">Eggs </a>
+          <a href="#">Buns & Bakery </a>
+          <a href="#">Cheese </a>
+          <a href="#">Condensed Milk </a>
+          <a href="#">Dairy Products </a>
+          </div>
+          <div class="megamenu_word">
+          <h4>Breakfast & Instant Food</h4>
+          <a href="#">Breakfast Cereal</a>
+          <a href="#">Noodles, Pasta & Soup</a>
+          <a href="#">Frozen Veg Sn</a>
+          <a href="#">Frozen Non-Veg Snacks</a>
+          <a href="#">Vermicelli</a>
+          <a href="#">Instant Mixes</a>
+          <a href="#">Batter</a>
+          <a href="#">Fruit and Juices</a>
+          </div>
+          <div class="megamenu_word">
+          <h4>Cold Drinks & Juices</h4>
+          <a href="#">Soft Drinks </a>
+          <a href="#">Fruit Juices </a>
+          <a href="#">Coldpress </a>
+          <a href="#">Water & Ice Cubes </a>
+          <a href="#">Soda & Mixers </a>
+          <a href="#">Health Drinks </a>
+          <a href="#">Herbal Drinks </a>
+          <a href="#">Milk Drinks </a>
+          </div>
+          <img src="img/menu-banner.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Pages<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="#">Blog</a>
+        <a href="#">Blog Single</a>
+        <a href="#">Blog Category</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <div class="dropdowna">
+      <button class="dropbtna">Account<i class="fa-solid fa-chevron-down" style="margin-left: 10px;"></i></button>
+      <div class="dropdown-contenta">
+        <a href="signin.html">Sing In</a>
+        <a href="signup.html">Sing Up</a>
+        <a href="products_detail.html">Forgot Password</a>
+        <a href="#">My Account</a>
+      </div>
+    </div>
+    <span>Dashboard</span>
+    <span>Docs</span>
+    </div>
+  </header>
+    <main class="main">
+        <div class="produts-detail">
+          <div class="produts-detail-up">
+            <div class="produts-detail-left">
+              <div class="produts-detail-left-slider">
+                <div class="swiper ImageSlider2">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/products_detail_img/product-single-img-1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/products_detail_img/product-single-img-2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/products_detail_img/product-single-img-3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/products_detail_img/product-single-img-4.jpg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper ImageSlider">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="swiper-slide-img"><img src="assets/img/products_detail_img/product-single-img-1.jpg" /></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide-img"><img src="assets/img/products_detail_img/product-single-img-2.jpg" /></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide-img"><img src="assets/img/products_detail_img/product-single-img-3.jpg" /></div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="swiper-slide-img"><img src="assets/img/products_detail_img/product-single-img-4.jpg" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="produts-detail-right">
+              <div class="products-detail-right-title">
+                <div class="products-detail-right-title1">
+                  <div>
+                    <span style="font-size: 25px;">Napolitanke Ljesnjak</span><br>
+                    <span style="color: green;">Bakery Biscuits</span>
+                  </div>
+                  <div class="products-detail-right-title-price">
+                    <div style="gap: 5px; display: flex;">
+                      <span><del>$35</del></span>
+                      <span style="color: green;
+                      gap: 5px;
+                      display: flex;
+                      text-align: center;
+                      justify-content: center;
+                      align-items: center;">%5<i class="fa-solid fa-caret-down fa-sm"></i></span>
+                    </div>
+                    <div>
+                      <span style="font-size: 25px;">$32</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="products-detail-right-title2">
+                    <div>
+                      <span style="font-size: 20px;">4,1</span>
+                      <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                      <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                      <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                      <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                      <i class="fa-solid fa-star-half-stroke" style="color: #f7e302;"></i>
+                    </div>
+                    <span style="font-size: 10px;">1639 Değerlendirme</span>
+                </div>
+              </div>
+              <div class="products-detail-right-cart">
+                <div class="products-detail-right-cart-weight-group">
+                  <div class="products-detail-right-cart-weight">250gr</div>
+                  <div class="products-detail-right-cart-weight">500gr</div>
+                  <div class="products-detail-right-cart-weight">1kg</div>
+                </div>
+                <div class="products-detail-right-cart-input">
+                  <div class="input_1"><i class="fa-solid fa-minus fa-2xs"></i></div>
+                  <input type="text" class="input_2" value="1">
+                  <div class="input_1"><i class="fa-solid fa-plus fa-2xs"></i></div>
+                </div>
+                <div class="products-detail-right-cart-button">
+                  <div class="products-detail-right-add"><i class="fa-solid fa-cart-plus"></i> Add To Cart</div>
+                  <div class="products-detail-right-icon"><i class="fa-regular fa-heart"></i></div>
+                  <div class="products-detail-right-icon"><i class="fa-solid fa-arrow-right-arrow-left"></i></div>
+                </div>
+                <hr>
+              </div>
+              <div class="products-detail-right-text">
+                <div class="products-detail-right-text1">
+                  <span>Product Code:</span>
+                  <span style="width: 300px;">FBB00255</span>
+                </div>
+                <div class="products-detail-right-text1">
+                  <span>Availability:</span>
+                  <span style="width: 300px;">In Stock</span>
+                </div>
+                <div class="products-detail-right-text1">
+                  <span>Type:</span>
+                  <span style="width: 300px;">Fruits</span>
+                </div>
+                <div class="products-detail-right-text1">
+                  <span>Shipping:</span>
+                  <span style="width: 300px;">01 day shipping. ( Free pickup today)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="produts-detail-mid">
+            <div class="produts-detail-mid-tabs">
+              <input class="produts-detail-mid-input" name="tabs" type="radio" id="tab-1" checked="checked"/>
+              <label class="produts-detail-mid-label" for="tab-1">Product Details</label>
+              <div class="produts-detail-mid-panel">
+                <div class="produts-detail-mid-panel-text">
+                  <h3>Nutrient Value & Benefits</h3>
+                  <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     Nisi, tellus iaculis urna bibendum in lacus, integer.
+                     Id imperdiet vitae varius sed magnis eu nisi nunc sit.
+                     Vel, varius habitant ornare ac rhoncus.
+                     Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed.
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </span>
+                </div>
+                <div class="produts-detail-mid-panel-text">
+                  <h3>Storage Tips</h3>
+                  <span>
+                    Nisi, tellus iaculis urna bibendum in lacus, integer.
+                    Id imperdiet vitae varius sed magnis eu nisi nunc sit.
+                    Vel, varius habitant ornare ac rhoncus.
+                    Consequat risus facilisis ante ipsum netus risus adipiscing sagittis sed.Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </span>
+                </div>
+                <div class="produts-detail-mid-panel-text">
+                  <h3>Unit</h3>
+                  <span>
+                    3 units
+                  </span>
+                </div>
+                <div class="produts-detail-mid-panel-text">
+                  <h3>Seller</h3>
+                  <span>
+                    DMart Pvt. LTD
+                  </span>
+                </div>
+                <div class="produts-detail-mid-panel-text">
+                  <h3>Disclaimer</h3>
+                  <span>
+                    Image shown is a representation and may slightly vary from the actual product.
+                    Every effort is made to maintain accuracy of all information displayed.
+                  </span>
+                </div>
+              </div>
+              <input class="produts-detail-mid-input" name="tabs" type="radio" id="tab-2"/>
+              <label class="produts-detail-mid-label" for="tab-2">Information</label>
+              <div class="produts-detail-mid-panel">
+                <div class="produts-detail-mid-panel-text">
+                  <h3>Details</h3>
+                  <div class="produts-detail-mid-panel-table">
+                    <div class="produts-detail-mid-panel-table-left">
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Weight</span>
+                        <span>1000 Grams</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Ingredient Type</span>
+                        <span>Vegetarian</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Brand</span>
+                        <span>Dmart</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Item Package Quantity	</span>
+                        <span>1</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Form</span>
+                        <span>Larry the Bird</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Manufacturer</span>
+                        <span>Dmart</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Net Quantity</span>
+                        <span>340.0 Gram</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Product Dimensions</span>
+                        <span>9.6 x 7.49 x 18.49 cm</span>
+                      </div>
+                    </div>
+                    <div class="produts-detail-mid-panel-table-right">
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>ASIN</span>
+                        <span>SB0025UJ75W</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Best Sellers Rank</span>
+                        <span>#2 in Fruits</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Date First Available</span>
+                        <span>30 April 2022</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Item Weight</span>
+                        <span>500g</span>
+                      </div>
+                      <div class="produts-detail-mid-panel-table-left-text">
+                        <span>Generic Name</span>
+                        <span>Banana Robusta</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <input class="produts-detail-mid-input" name="tabs" type="radio" id="tab-3"/>
+              <label class="produts-detail-mid-label" for="tab-3">Reviews</label>
+              <div class="produts-detail-mid-panel">
+                <div class="produts-detail-mid-panel-text">
+                  <div class="reviews">
+                    <div class="reviews-left">
+                      <div class="reviews-left-main">
+                        <div class="reviews-left-main-section">
+                          <h2>Customer reviews</h2>
+                          <div class="stars-group">
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <i class="fa-solid fa-star-half-stroke" style="color: #f7e302;"></i>
+                            <span>4.1 out of 5 </span><span>11,130 global ratings</span>
+                          </div>
+                        </div> 
+                        <div class="reviews-left-main-stars-group">
+                          <div class="reviwes-left-main-star">
+                            <span>5</span>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <progress id="file" value="53" max="100" style="color: #f7e302;"></progress>
+                            <span>53%</span>
+                          </div>
+                          <div class="reviwes-left-main-star">
+                            <span>4</span>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <progress id="file" value="22" max="100" style="color: #f7e302;"></progress>
+                            <span>22%</span>
+                          </div>
+                          <div class="reviwes-left-main-star">
+                            <span>3</span>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <progress id="file" value="14" max="100" style="color: #f7e302;"></progress>
+                            <span>14%</span>
+                          </div>
+                          <div class="reviwes-left-main-star">
+                            <span>2</span>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <progress id="file" value="5" max="100" style="color: #f7e302;"></progress>
+                            <span>5%</span>
+                          </div>
+                          <div class="reviwes-left-main-star">
+                            <span>1</span>
+                            <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                            <progress id="file" value="7" max="100" style="color: #f7e302;"></progress>
+                            <span>7%</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="reviews-right">
+                      <div class="reviews-right-main">
+                        <div class="reviews-right-main1">
+                          <div class="reviews-right-main-comment-group">
+                            <div class="reviews-right-main-comment-profile">
+                              <img src="assets/img/avatar/avatar-12.jpg" alt="">
+                            </div>
+                            <div class="reviews-right-main-comment">
+                              <div class="reviews-right-main-comment-text1">
+                                <span style="font-weight: 700;font-size: 20px;">Shankar Subbaraman</span>
+                                <div style="width: max-content;"><span style="font-size: 12px;">30 December 2022 </span><span style="font-size: 12px; color: green;">Verified Purchase</span></div>
+                              </div>
+                              <div class="reviews-right-main-comment-text2">
+                                <div class="reviews-right-main-comment-star">
+                                  <div class="stars-group-2">
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star-half-stroke" style="color: #f7e302;"></i>
+                                  </div>
+                                  <span style="font-weight: 600;">Need to recheck the weight at delivery point</span>
+                                </div>
+                                <div class="comment-text">
+                                  Product quality is good.
+                                  But, weight seemed less than 1kg.
+                                  Since it is being sent in open package, there is a possibility of pilferage in between.
+                                  FreshCart sends the veggies and fruits through sealed plastic covers and Barcode on the weight etc. .</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="reviews-right-main-comment-group">
+                            <div class="reviews-right-main-comment-profile">
+                              <img src="assets/img/avatar/avatar-10.jpg" alt="">
+                            </div>
+                            <div class="reviews-right-main-comment">
+                              <div class="reviews-right-main-comment-text1">
+                                <span style="font-weight: 700;font-size: 20px;">Shankar Subbaraman</span>
+                                <div style="width: max-content;"><span style="font-size: 12px;">30 December 2022 </span><span style="font-size: 12px; color: green;">Verified Purchase</span></div>
+                              </div>
+                              <div class="reviews-right-main-comment-text2">
+                                <div class="reviews-right-main-comment-star">
+                                  <div class="stars-group-2">
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star-half-stroke" style="color: #f7e302;"></i>
+                                  </div>
+                                  <span style="font-weight: 600;">Need to recheck the weight at delivery point</span>
+                                </div>
+                                <div class="comment-text">Product quality is good. But, weight seemed less than 1kg. Since it is being sent in open package, there is a possibility of pilferage in between. FreshCart sends the veggies and fruits through sealed plastic covers and Barcode on the weight etc. .</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="reviews-right-main-comment-group">
+                            <div class="reviews-right-main-comment-profile">
+                              <img src="assets/img/avatar/avatar-9.jpg" alt="">
+                            </div>
+                            <div class="reviews-right-main-comment">
+                              <div class="reviews-right-main-comment-text1">
+                                <span style="font-weight: 700;font-size: 20px;">Shankar Subbaraman</span>
+                                <div style="width: max-content;"><span style="font-size: 12px;">30 December 2022 </span><span style="font-size: 12px; color: green;">Verified Purchase</span></div>
+                              </div>
+                              <div class="reviews-right-main-comment-text2">
+                                <div class="reviews-right-main-comment-star">
+                                  <div class="stars-group-2">
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star-half-stroke" style="color: #f7e302;"></i>
+                                  </div>
+                                  <span style="font-weight: 600;">Need to recheck the weight at delivery point</span>
+                                </div>
+                                <div class="comment-text">Product quality is good. But, weight seemed less than 1kg. Since it is being sent in open package, there is a possibility of pilferage in between. FreshCart sends the veggies and fruits through sealed plastic covers and Barcode on the weight etc. .</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="reviews-right-main-comment-group">
+                            <div class="reviews-right-main-comment-profile">
+                              <img src="assets/img/avatar/avatar-8.jpg" alt="">
+                            </div>
+                            <div class="reviews-right-main-comment">
+                              <div class="reviews-right-main-comment-text1">
+                                <span style="font-weight: 700;font-size: 20px;">Shankar Subbaraman</span>
+                                <div style="width: max-content;"><span style="font-size: 12px;">30 December 2022 </span><span style="font-size: 12px; color: green;">Verified Purchase</span></div>
+                              </div>
+                              <div class="reviews-right-main-comment-text2">
+                                <div class="reviews-right-main-comment-star">
+                                  <div class="stars-group-2">
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star fa-sm" style="color: #f7e302;"></i>
+                                    <i class="fa-solid fa-star-half-stroke" style="color: #f7e302;"></i>
+                                  </div>
+                                  <span style="font-weight: 600;">Need to recheck the weight at delivery point</span>
+                                </div>
+                                <div class="comment-text">Product quality is good. But, weight seemed less than 1kg. Since it is being sent in open package, there is a possibility of pilferage in between. FreshCart sends the veggies and fruits through sealed plastic covers and Barcode on the weight etc. .</div>
+                              </div>
+                            </div>                  
+                          </div>
+                        </div>
+                        <div class="reviews-right-main2">
+                          <div class="reviews-right-main-rating-star">                         
+                            <div class="reviews-right-main-rating-star1">
+                              <h2>Create Review</h2>
+                              <h3>Overall rating</h3>
+                              <span class="star-rating">
+                                <label for="rate-1" style="--i:1"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="rate-1" value="1">
+                                <label for="rate-2" style="--i:2"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="rate-2" value="2" checked>
+                                <label for="rate-3" style="--i:3"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="rate-3" value="3">
+                                <label for="rate-4" style="--i:4"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="rate-4" value="4">
+                                <label for="rate-5" style="--i:5"><i class="fa-solid fa-star"></i></label>
+                                <input type="radio" name="rating" id="rate-5" value="5">
+                              </span>
+                            </div>
+                            <div class="reviews-right-main-rating-star1-text">
+                              <h3>Add a headline</h3>
+                              <input type="text" class="reviews-right-main-rating-star1-text-input">
+                              <div class="input-file"><input type="file" class="file"></div>
+                              <textarea name="textarea" id="" cols="30" rows="10"></textarea>
+                              <div style="display: flex;justify-content: flex-end;"><button>Submit Review</button></div>
+                            </div>
+                          </div>
+                        </div>             
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <hr>
+<!--footer-->
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer_div">
+      <div class="footer_card">
+        <a style="font-size: 25px;">Categories</a>
+        <div class="footer_Text">
+          <h5>Vegetables & Fruits</h5>
+          <h5>Breakfast & instant food</h5>
+          <h5>Bakery & Biscuits</h5>
+          <h5>Atta, rice & dal</h5>
+          <h5>Sauces & spreads</h5>
+          <h5>Organic & gourmet</h5>
+          <h5>Baby care</h5>
+          <h5>Cleaning essentials</h5>
+          <h5>Personal care</h5>
+        </div>
+      </div>
+      <div class="footer_card">
+        <a style="font-size: 25px;">Get to know us</a>
+        <div class="footer_Text">
+          <h5>Company</h5>
+          <h5>About</h5>
+          <h5>Blog</h5>
+          <h5>Help Center</h5>
+          <h5>Our Value</h5>
+        </div>
+      </div>
+      <div class="footer_card">
+        <a style="font-size: 25px;">For Consumers</a>
+        <div class="footer_Text">
+          <h5>Payments</h5>
+          <h5>Shipping</h5>
+          <h5>Product Returns</h5>
+          <h5>FAQ</h5>
+          <h5>Shop Checkout</h5>
+        </div>
+      </div>
+      <div class="footer_card">
+        <a style="font-size: 25px;">Become a Shopper</a>
+        <div class="footer_Text">
+          <h5>Shopper Opportunities</h5>
+          <h5>Become a Shopper</h5>
+          <h5>Earnings</h5>
+          <h5>Ideas & Guides</h5>
+          <h5>New Retailers</h5>
+        </div>
+      </div> 
+    </div>
+    <hr>
+    <div class="footer_Payment">
+      <div class="Payment_Partners">
+      <div class="social_media">
+        <img src="assets/img/payment_img/amazonpay.svg" alt="">
+        <img src="assets/img/payment_img/american-express.svg" alt="">
+        <img src="assets/img/payment_img/mastercard.svg" alt="">
+        <img src="assets/img/payment_img/paypal.svg" alt="">
+        <img src="assets/img/payment_img/visa.svg" alt="">
+      </div>
+      </div>
+      <div class="Payment_Partners">
+        <div class="social_media">
+          <i class="fa-brands fa-instagram fa-2xl" style="color: #D70059;"></i>
+          <i class="fa-brands fa-facebook fa-2xl" style="color: #1777F2;"></i>
+          <i class="fa-brands fa-twitter fa-2xl" style="color: #1DA1F2;"></i>
+          <i class="fa-brands fa-youtube fa-2xl" style="color: #ff0000;"></i>
+        </div> 
+      </div>
+    </div>
+  </div>
+</footer> 
+</div>
+<!--last footer-->
+<div class="last_footer"><h5>Product prices include VAT. ©Freshcart 2023</h5></div>
+</body>
+</html>
+<script src="assets/js/javascript.js"></script>

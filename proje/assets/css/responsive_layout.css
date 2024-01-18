@@ -1,0 +1,179 @@
+/* responsive*/
+
+@media only screen and (min-width: 320px) and (max-width:480px) {
+  body{
+    overflow-x: hidden;
+  }
+  .main_container{
+    width: 405px !important;
+  }
+  .show{
+    margin-left: -40px;
+  }
+  .header_search_engine{
+    display: none !important;
+  }
+  .bars{
+    display: flex !important;
+    align-items: center;
+  }
+  .header_user {
+    gap: 20px;
+    width: 165px !important;
+  }
+  .navbar{
+    flex-direction: column;
+    gap: 10px;
+    display: none;
+  }
+  .dropdown{
+    width: 100%;
+  }
+  .dropbtn{
+    width: 100%;
+    justify-content: center;
+    margin: 0 !important;
+  }
+  .dropdowna{
+    width: 100%;
+    gap: 10px;
+  }
+  .dropbtna{
+    width: 100%;
+  }
+  .dropdown-content{
+    width: 100%;
+  }
+  .dropdown-contenta{
+    width: 100%;
+  }
+  .dropdown-mega-content{
+    margin-left: 0px !important;
+    width: 100% !important;
+  }
+  .megamenu_title{
+    flex-wrap: wrap;
+    width: 100% !important;
+    justify-content: start !important;
+    gap: 10px;
+  }
+  .megamenu_word{
+    width: 180px !important;
+  }
+  .slider{
+    width: 100% !important;
+  }
+  .card_menu{
+    justify-content: start !important;
+  }
+  .card {
+    width: 170px !important;
+  }
+  .swiper-slide img{
+    height: 100%;
+  }
+  .swiper{
+    width: 100% !important;
+  }
+  .article{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .article-position{
+    top: 0 !important;
+    left: 20px !important;
+  }
+  .article_left{
+    height: 200px;
+  }
+  .article_right{
+    height: 200px !important;
+  }
+  .slider_text{
+    top: 15px !important;
+    left: 15px !important;
+    font-size: 11px;
+  }
+  .slider_text h1{
+    font-size: 35px !important;
+    width: 200px !important;
+  }
+  .PopularProducts{
+    flex-wrap: wrap !important;
+  }
+  .cardwiew_table{
+    width: 185px !important;
+    background-color: antiquewhite;
+  }
+  .cardwiew_img{
+    width: 100% !important;
+  }
+  .cardwiew_img img{
+    width: 100% !important;
+  }
+  .DailyBestSells{
+    gap: 10px;
+  }
+  .DailyBestSellsimg{
+    width: 193px !important;
+    height: 535px !important;
+  }
+  .DailyBestSellsimg img{
+    max-width: 100%;  
+  }
+  .DailyBestSells_cartwiew{
+    width: 160px !important;
+  }
+  .DailyBestSells_img{
+    text-align: center;
+    width: 100%;
+  }
+  .DailyBestSells_img img{
+    text-align: center;
+    width: 100%;
+  }
+  .DailyBestSells_date_group{
+    flex-wrap: wrap;
+  }
+  .DailyBestSellsimg_text{
+    font-size: 15px;
+  }
+  .hiddenn{
+    left: 20% !important;
+    top: 16% !important;
+  }
+  .whapper_Card{
+    width: 165px !important;
+  }
+  .whapper{
+    gap: 4px;
+  }
+  .footer_div{
+    flex-wrap: wrap;
+  }
+  .footer_card{
+    width: 160px !important;
+  }
+  .footer_card a{
+    font-size: 20px !important;
+  }
+  .footer_Payment{
+    flex-direction: column;
+  }
+  .Payment_Partners{
+    width: 100%;
+    height: 40px;
+    margin-top: 10px;
+  }
+  .social_media{ 
+    justify-content: space-between;
+    width: 100%;
+  }
+  .hidden{
+    top: 130px !important;
+    left: 35px !important;
+  }
+  .slider-cart{
+    width: 1100px;
+  }
+}
