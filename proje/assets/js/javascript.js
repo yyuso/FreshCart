@@ -102,6 +102,11 @@ var swiper2 = new Swiper(".ImageSlider2", {
     nextEl: ".ImageSlider-button-next",
     prevEl: ".ImageSlider-button-prev",
   },
+  breakpoints: {  
+    '480': {
+      slidesPerView: 1,
+      spaceBetween: 2,},
+  },
   thumbs: {
     swiper: swiper,
   },

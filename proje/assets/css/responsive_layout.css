@@ -2,7 +2,6 @@
 @media only screen and (min-width: 320px) and (max-width:480px) {
   body{
     overflow-x: hidden;
-    background-color: red;
   }
   .main_container{
     width: 405px !important;
@@ -37,6 +36,7 @@
   .dropdowna{
     width: 100%;
     gap: 10px;
+    margin-left: 0 !important;
   }
   .dropbtna{
     width: 100%;
@@ -63,11 +63,12 @@
   .slider{
     width: 100% !important;
   }
-  .card_menu{
-    justify-content: start !important;
-  }
+
   .card {
     width: 170px !important;
+  }
+  .swiper-slide{
+    width: 100%;
   }
   .swiper-slide img{
     height: 100%;
@@ -184,5 +185,14 @@
     display: flex !important;
     align-items: center;
     justify-content: center;
+  }
+  .card_menu{
+    background-color: antiquewhite;
+    width: max-content;
+    justify-content: start !important;
+  }
+  .swiper-slide{
+    background-color: aqua;
+    width: 0!important;
   }
 }
