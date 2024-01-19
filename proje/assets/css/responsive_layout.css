@@ -105,9 +105,11 @@
   }
   .cardwiew_img{
     width: 100% !important;
+    height: 150px !important;
   }
   .cardwiew_img img{
     width: 100% !important;
+    height: 150px !important;
   }
   .DailyBestSells{
     gap: 10px;
@@ -168,7 +170,7 @@
     width: 100%;
   }
   .hidden{
-    top: 130px !important;
+    top: 100px !important;
     left: 35px !important;
   }
   .slider-cart{
@@ -191,6 +193,55 @@
   .sw1-main{
     width: 100%;
   }
+  .cardwiew_text a{
+    font-size: 15px;
+  }
+  .cardwiew_text h3{
+    font-size: 12px;
+  }
+  .add{
+    font-size: 12px;
+  }
+
+   /*Modal*/
+  .modal-content{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .modal-content-form{
+    padding: 0 !important;
+    width: 100% !important;
+  }
+
+  /*Modal*/
+  .addressModal-content{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .addressModal-content-tittle{
+    width: 100%;
+  }
+  .addressModal-content-input-group{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .addressModal-content-input-group-input{
+    width: 80% !important;
+  }
+  .addressModal-content-input-group select{
+    width: 85% !important;
+  }
+  .addressModal-content-tittle span{
+    margin-left: 32px;
+    margin-top: 20px;
+  }
+  .addressModal-content-input-group-button{
+    margin-bottom: 20px;
+  }
+  .addressclose{
+    margin: 0 !important;
+  }
   
   /*Favorites*/
   .favorites-up-title{
@@ -206,6 +257,7 @@
   }
   .favorites-card{
     width: 160px !important;
+    gap: 5px !important;
   }
   .favorites-card-title{
     text-align: center;
@@ -243,6 +295,9 @@
     justify-content: center;
     align-items: center;
   }
+  .signup{
+    width: 100% !important;
+  }
 
   /*Contact*/
   .contanct-main{
@@ -271,6 +326,7 @@
   .map{
     height: 450px !important;
   }
+
   /*About*/
   .about-main{
     display: flex;
@@ -323,5 +379,143 @@
   }
   .about-last-text-group h1{
     font-size: 25px;
+  }
+
+  /*Checkout*/
+  .checkout-mid{
+    width: 100%;
+    flex-direction: column;
+  }
+  .checkout-section{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .checkout-main-section-category-address-grup{
+    width: 130px !important;
+  }
+  .delivery-time-button{
+    font-size: 10px !important;
+  }
+  .day-group{
+    gap: 5px;
+  }
+  .day-group-choose {
+    font-size: 10px !important;
+  }
+  .payment-credit-information{
+    width: 100%;
+  }
+  .payment-credit-information-code{
+    width: 80px !important;
+  }
+  .payment-credit-information-date{
+    width: 115px !important;
+  }
+  .payment-credit-information-name{
+    width: 120px !important;
+  }
+  .checkout-main-section-category-button1-address{
+    margin-top: 4px;
+  }
+  .checkout-details{
+    width: 100% !important;
+    padding: 0 !important;
+    margin-top: 10px;
+  }
+  .day-group-paid, .day-group-free{
+    font-size: 8px !important;
+  }
+
+  /*Products*/
+  .products-main-section{
+    display: none !important;
+  }
+  .products-main-right{
+    flex-wrap: wrap;
+    width: 100% !important;
+  }
+  .products-main{
+    width: 100% !important;
+  }
+  .cardwiew_table2{
+    width: 180px !important;
+  }
+  .products-main-right-filter{
+    display: block !important;
+    border: 1px solid grey;
+    color: grey;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px !important;
+  }
+  .products-main-right-text h1{
+    font-size: 20px;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden; 
+    transition: 0.5s;
+    padding-top: 60px; 
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    color: black;
+  }
+  .hnav{
+    display: flex;
+    flex-direction: column;
+  }
+  .checkout-main-section-category-button {
+    font-size: 15px !important;
+  }
+  .products-main-section-category2{
+    width: 100%;
+    color: black;
+  }
+  .products-main-section-stores2{
+    width: 100%;
+    color: black;
+  }
+  .products-main-section-price2{
+    width: 100%;
+    color: black;
+  }
+  .products-main-section-img2{
+    width: 100%;
+    color: black;
+    position: relative;
+    margin-top: 20px;
+  }
+  .checkout-main-section-category-button-text{
+    display: flex ;
+    flex-direction: column;
+    margin-left: 10px;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  .checkout-main-section-category-button-text a:hover{ 
+    color: green;
+    cursor: pointer;
+  }
+  .sidenav::-webkit-scrollbar{
+  width: 10px;
+  }
+  .sidenav::-webkit-scrollbar-track{
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  }
+  .sidenav::-webkit-scrollbar-thumb{
+  background: green;
+  border-radius: 10px;
   }
 }

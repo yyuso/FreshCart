@@ -119,6 +119,22 @@ function toggleSelectedCategory(selectedCategoryId) {
       }
   });
 }
+function nav(navId) {
+  var selectedCategory = document.getElementById(navId);
+  var allCategoriess = document.querySelectorAll('div[id^="nav-item"]');
+
+  allCategoriess.forEach(function(category) {
+      if (category === selectedCategory) {
+          if (category.style.display === 'none') {
+              category.style.display = 'block';
+          } else {
+              category.style.display = 'none';
+          }
+      } else {
+          category.style.display = 'none';
+      }
+  });
+}
 function updateTitle(value) {
   const ilkBaslik = document.getElementById('ilkBaslik');
 
@@ -171,4 +187,12 @@ function opennavbar() {
     navbar.style.display = "flex";
       console.log("flex");
   }
+}
+
+
+function openNav() {
+  document.getElementById("YanMenu").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("YanMenu").style.width = "0";
 }
