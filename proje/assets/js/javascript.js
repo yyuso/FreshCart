@@ -3,24 +3,48 @@ var s1 = new Swiper(".mymainslider", {
     el: ".swiper-pagination",
   },
 });
+
 var swiper = new Swiper(".mySwiper", {
   slidesPerView: 5,
   spaceBetween: 30,
   freeMode: true,
   pagination: {
-    el: ".swiper-pagination",
     clickable: true,
   },
   breakpoints: {
-    1024: {
+    1920: {
       slidesPerView: 5,
       spaceBetween: 2
     },
     400: {
-      slidesPerView: 1,
+      slidesPerView: 2,
       spaceBetween: 2
     },
   }
+});
+
+var swiper = new Swiper(".ImageSlider", {
+  loop: true,
+  spaceBetween: 1,
+  slidesPerView: 4,
+  freeMode: true,
+  watchSlidesProgress: true,
+});
+var swiper2 = new Swiper(".ImageSlider2", {
+  loop: true,
+  spaceBetween: 10,
+  navigation: {
+    nextEl: ".ImageSlider-button-next",
+    prevEl: ".ImageSlider-button-prev",
+  },
+  breakpoints: {  
+    '480': {
+      slidesPerView: 1,
+      spaceBetween: 2,},
+  },
+  thumbs: {
+    swiper: swiper,
+  },
 });
 
 function myFunction() {
@@ -101,29 +125,6 @@ function updateTitle(value) {
   // İlk başlık değeri aralık değeriyle, ikinci başlık ise maksimumdan aralık değeriyle güncellenir
   ilkBaslik.textContent = value;
 }
-var swiper = new Swiper(".ImageSlider", {
-  loop: true,
-  spaceBetween: 1,
-  slidesPerView: 4,
-  freeMode: true,
-  watchSlidesProgress: true,
-});
-var swiper2 = new Swiper(".ImageSlider2", {
-  loop: true,
-  spaceBetween: 10,
-  navigation: {
-    nextEl: ".ImageSlider-button-next",
-    prevEl: ".ImageSlider-button-prev",
-  },
-  breakpoints: {  
-    '480': {
-      slidesPerView: 1,
-      spaceBetween: 2,},
-  },
-  thumbs: {
-    swiper: swiper,
-  },
-});
 // Get the modal
 var addressModal = document.getElementById("addressModal");
 
