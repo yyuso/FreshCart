@@ -198,14 +198,130 @@
   }
   .favorites-card-img{
     width: 100% !important;
+    height: 175px !important;
   }
   .favorites-card-img img{
     width: 100%;
+    height: 100% !important;
   }
   .favorites-card{
     width: 160px !important;
   }
   .favorites-card-title{
     text-align: center;
+  }
+
+  /*SignIn*/
+  .signin{
+    flex-wrap: wrap;
+  }
+  .signin-right{
+    width: 100% !important;
+  }
+  .signin-left{
+    width: 100% !important;
+  }
+  .signin-right-input{
+    width: 100% !important;
+  }
+  .signin-right-icon-group{
+    width: 100% !important;
+  }
+  .signin-right-input-group{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .signin-right-checkbox {
+    width: 100% !important;
+  }
+  .signin-button{
+    width: 100% !important;
+    padding: 0px !important;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /*Contact*/
+  .contanct-main{
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .map{
+    width: 100% !important;
+  }
+  .account{
+    width: 100% !important;
+  }
+  .account-mid-right{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .account-mid-input{
+    width: 100% !important;
+  }
+  .account-mid-right-group-input{
+    width: 175px !important;
+  }
+  .account-mid-right-group-input2{
+    width: 399px !important;
+  }
+  .map{
+    height: 450px !important;
+  }
+  /*About*/
+  .about-main{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .about-up{
+    flex-wrap: wrap;
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .about-up-left{
+    width: 100% !important;
+  }
+  .about-up-right{
+    width: 100% !important;
+  }
+  .about-up-right-img{
+    width: 100% !important;
+  }
+  .app{
+    flex-wrap: wrap;
+    width: 100% !important;
+  }
+  .app img{
+    width: 200px;
+    margin-right: 0 !important;
+  }
+  .app_text{
+    width: 100%;
+    padding: 0 !important;
+  }
+  .about-mid{
+    width: 100% !important;
+    flex-wrap: wrap;
+  }
+  .about-mid-cart-group{
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 10px 
+  }
+  .about-last-text {
+    width: 100% !important;
+  }
+  .about-last-text h1{
+    font-size: 25px;
+  }
+  .about-last-text-group{
+    width: 100% !important;
+    padding: 0 !important;
+  }
+  .about-last-text-group h1{
+    font-size: 25px;
   }
 }

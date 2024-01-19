@@ -1050,7 +1050,6 @@ body::-webkit-scrollbar-thumb {
     border-radius: 5px;
 }
 .contanct-main{
-    width: 1300px;
     display: flex;
     margin-top: 50px;
 }
@@ -1063,7 +1062,6 @@ body::-webkit-scrollbar-thumb {
     width: auto;
     padding: 50px;
     margin: auto;
-
 }
 .account-mid-right-group input{
     width: 200px;
@@ -1095,8 +1093,10 @@ body::-webkit-scrollbar-thumb {
 }
 .account-mid-right-group-input:focus{
     border: 2px solid green;
+}.account-mid-right-group-input2:focus{
+    border: 2px solid green;
 }
-.account-mid-right-group-input{
+.account-mid-right-group-input2{
     width: 495px;
     height: 25px;
     border: 1px solid grey; 
@@ -1374,7 +1374,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: space-between;
 }
 .signup{
-    width: 390px;
+    width: 385px;
     display: flex;
     justify-content: space-between;
     column-gap: 10px;
