@@ -70,9 +70,6 @@
   .swiper-slide{
     width: 100%;
   }
-  .swiper-slide img{
-    height: 100%;
-  }
   .swiper{
     width: 100% !important;
   }
@@ -191,8 +188,7 @@
     width: max-content;
     justify-content: start !important;
   }
-  .swiper-slide{
-    background-color: aqua;
-    width: 0!important;
+  .sw1-main{
+    width: 100%;
   }
 }

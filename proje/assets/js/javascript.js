@@ -1,10 +1,18 @@
-//english button
-var swiper = new Swiper(".mySwiper", {});
+var s1 = new Swiper(".mymainslider", {
+  pagination: {
+    el: ".swiper-pagination",
+  },
+});
+var swiper = new Swiper(".mySwiper", {
+  slidesPerView: 5,
+  spaceBetween: 30,
+  freeMode: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+});
 
-//hover div
-
-
-//slider
 function myFunction() {
   document.getElementById("myDropdown").classList.toggle("show");
 }  
@@ -77,17 +85,12 @@ function toggleSelectedCategory(selectedCategoryId) {
       }
   });
 }
-
-
-
-
 function updateTitle(value) {
   const ilkBaslik = document.getElementById('ilkBaslik');
 
   // İlk başlık değeri aralık değeriyle, ikinci başlık ise maksimumdan aralık değeriyle güncellenir
   ilkBaslik.textContent = value;
 }
-
 var swiper = new Swiper(".ImageSlider", {
   loop: true,
   spaceBetween: 1,
