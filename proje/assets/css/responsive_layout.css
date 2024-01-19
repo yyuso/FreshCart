@@ -241,6 +241,8 @@
   }
   .addressclose{
     margin: 0 !important;
+    margin-right: 10px !important;
+    margin-top: -40px !important;
   }
   
   /*Favorites*/
@@ -409,7 +411,7 @@
     width: 80px !important;
   }
   .payment-credit-information-date{
-    width: 115px !important;
+    width: 100px !important;
   }
   .payment-credit-information-name{
     width: 120px !important;
@@ -424,6 +426,9 @@
   }
   .day-group-paid, .day-group-free{
     font-size: 8px !important;
+  }
+  .delivery-time-bar {
+    gap: 5px;
   }
 
   /*Products*/
