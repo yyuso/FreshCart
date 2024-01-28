@@ -432,6 +432,9 @@
   .delivery-time-bar {
     gap: 5px;
   }
+  .payment-credit-information-date2{
+    width: 85px !important;
+  }
 
   /*Products*/
   .products-main-section{
