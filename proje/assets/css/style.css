@@ -2359,7 +2359,6 @@ progress[value]::-webkit-progress-bar {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    margin-top: 10;
 }
 .payment-credit-cardnumber input{
     border-radius: 10px;
@@ -2376,6 +2375,8 @@ progress[value]::-webkit-progress-bar {
     display: flex;
     justify-content: space-between;
     gap: 10px;
+    align-items: center;
+    text-align: center;
 }
 .payment-credit-information-name{
     width: 375px;

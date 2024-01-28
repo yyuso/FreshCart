@@ -409,12 +409,14 @@
   }
   .payment-credit-information-code{
     width: 80px !important;
+    height: 84px !important;
+    justify-content: space-between;
   }
   .payment-credit-information-date{
-    width: 100px !important;
+    width: 85px !important;
   }
   .payment-credit-information-name{
-    width: 120px !important;
+    width: 110px !important;
   }
   .checkout-main-section-category-button1-address{
     margin-top: 4px;
