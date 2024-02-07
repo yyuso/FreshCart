@@ -587,6 +587,7 @@
   /*Produts Detail*/
   .produts-detail-left{
     width: 100% !important;
+    padding: 0 !important;
   }
   .produts-detail-left-slider{
     width: 100%;
