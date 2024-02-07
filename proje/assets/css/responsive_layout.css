@@ -597,7 +597,6 @@
   }
   .produts-detail-up{
     flex-direction: column;
-    padding: 10px;
   }
   .swiper-slide-img img {
     width: 80px !important;
