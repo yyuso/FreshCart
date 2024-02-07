@@ -597,6 +597,7 @@
   }
   .produts-detail-up{
     flex-direction: column;
+    padding: 0 !important;
   }
   .swiper-slide-img img {
     width: 80px !important;
@@ -679,10 +680,12 @@
   }
   .products-detail-right-text{
     padding: 0 !important;
-    width: 100% !important;
-    
+    width: 100% !important;  
   }
   .products-detail-right-text1 span{
     width: max-content !important;
+  }
+  .produts-detail{
+    margin: 0 !important;
   }
 }
