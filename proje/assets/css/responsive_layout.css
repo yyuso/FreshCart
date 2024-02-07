@@ -680,6 +680,8 @@
   }
   .products-detail-right-text{
     padding: 0 !important;
+    width: 100% !important;
+    
   }
   .products-detail-right-text1 span{
     width: max-content !important;
