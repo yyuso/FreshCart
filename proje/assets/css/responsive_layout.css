@@ -674,4 +674,7 @@
   .produts-detail-mid-panel-text {
     margin-bottom: 50px;
   }
+  .reviews-left-main-stars-group{
+    padding: 0 !important;
+  }
 }
